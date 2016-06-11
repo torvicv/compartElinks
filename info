@@ -1,0 +1,32 @@
+-Estoy en la página deleteBms.php para cambiar la entrada de borrar eligiendo usuario y url, por id.
+ORDEN DE LAS PÁGINAS:
+1-includes.inc(página donde guardo los fichero include).
+    1.1-output.inc(salidas de pantalla).
+        1.1.1-output_head.inc(funciones del head).
+    1.2-output_form.inc(formularios de salidas de pantalla).
+    1.3-data_valid.inc(validación de datos).
+    1.4-user_auth.inc(autenticación del usuario).
+2-index.php(página de inicio, formulario donde puedes loguearte y entrar en marcadores. Entrar en el formulario para 
+    registrarte como nuevo usuario. O pedir una nueva contraseña.).
+    2.1-registrationForm.php(formulario para registrarte como nuevo usuario).
+        2.1.1-registerUser.php(validación del formulario para registrarte como nuevo usuario).
+            2.1.1.1-member.php(página donde están los marcadores).
+                2.1.1.1.1-logout.php(página para desloguearse).
+                2.1.1.1.2-changePasswordForm.php(formulario para cambiar contraseña).
+                    2.1.1.1.2.1-changePassword.php(validación del formulario para cambiar contraseña).
+                2.1.1.1.3-deleteBms.php(página para borrar marcadores).
+                2.1.1.1.4-recommend.php(página para recomendar marcadores).
+                2.1.1.1.5-addBmForm.php(formulario para añadir marcadores).
+                    2.1.1.1.5.1-addBms.php(validación de los marcadores).
+    2.2-member.php(página donde están los marcadores).
+        2.2.1-logout.php(página para desloguearse).
+        2.2.2-changePasswordForm.php(formulario para cambiar contraseña).
+                    2.1.1.1.2.1-changePassword.php(validación del formulario para cambiar contraseña).
+        2.2.3-deleteBms.php(página para borrar marcadores).
+        2.2.4-recommend.php(página para recomendar marcadores).
+        2.2.5-addBmForm.php(página para añadir marcadores).
+            2.2.5.1-addBms.php(validación de los marcadores).
+    2.3-forgotPasswordForm.php(página para enviar contraseña si se ha olvidado).
+        2.3.1-forgotPassword.php(página que te envia una nueva contraseña a tu dirección email).
+3-diseño.css(diseño de la aplicación).
+4-info(información de la aplicación).
