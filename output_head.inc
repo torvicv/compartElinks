@@ -26,7 +26,7 @@ function palabrasClave($palabrasClave){
 
 function css_page(){
     ?>
-<link rel="stylesheet" type="text/css" href="disenyo.css"/>
+<link rel="stylesheet" type="text/css" href="diseno.css"/>
 <?php
 }
 

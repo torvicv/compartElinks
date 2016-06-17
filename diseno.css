@@ -1,0 +1,21 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 16-may-2016, 13:32:20
+    Author     : victor
+*/
+
+div#img {display: inline;}
+h1 {display: inline; margin-left: 20px; color: white; text-shadow: 0 0 25px blue;}
+footer {clear: both; background-color: black; color: white;}
+table {background-color: lightblue; padding: 10px; margin: 30px 0;}
+td,th {padding: 5px;}
+input {padding: 10px; border-radius: 6px; border: 4px inset blue;}
+input:hover {background-color: aqua;}
+div#menu {width: 300px;}
+table#delete tr:nth-child(odd) {background-color:lightgray;}
+table#delete tr:nth-child(even) {background-color: white;}
+label {color: white; text-shadow: 0 0 25px darkblue;}
